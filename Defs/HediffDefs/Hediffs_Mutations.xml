@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <HediffDef Name="MutationBase" Abstract="True">
+    <hediffClass>HediffWithComps</hediffClass>
+	<isBad>false</isBad>
+    <defaultLabelColor>(232,117,35)</defaultLabelColor>
+    <maxSeverity>1.0</maxSeverity>
+	<initialSeverity>0.5</initialSeverity>
+    <scenarioCanAdd>true</scenarioCanAdd>
+	<comps>
+    <li Class="HediffCompProperties_Immunizable"></li>
+    </comps>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>MFangs</defName>
+    <label>poisonous fangs</label>
+    <labelNoun>a pair of poisonous fangs</labelNoun>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>0.8</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>bite</label>
+            <capacities>
+              <li>ToxicBite</li>
+            </capacities>
+            <power>12</power>
+            <cooldownTime>2</cooldownTime>
+          </li>
+        </tools>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>MHearing</defName>
+    <label>cat-like ears</label>
+    <labelNoun>a cat-like ear</labelNoun>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.4</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>MEye</defName>
+    <label>eagle-eye</label>
+    <labelNoun>an eagle-eye</labelNoun>
+    <addedPartProps>
+      <partEfficiency>1.4</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+  </HediffDef>
+
+  <HediffDef ParentName="MutationBase">
+    <defName>MScales</defName>
+    <label>scales</label>
+    <labelNoun>a scale</labelNoun>
+    <stages>
+		<li>
+		  <statOffsets>
+			<CarryingCapacity>60</CarryingCapacity>
+		    <ArmorRating_Sharp>0.18</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.12</ArmorRating_Blunt>
+          </statOffsets>
+          <capMods>
+            <li>
+               <capacity>Manipulation</capacity>
+               <offset>0.1</offset>
+            </li>
+            <li>
+               <capacity>Moving</capacity>
+               <offset>-0.05</offset>
+            </li>
+			<li>
+				<capacity>BleedRate</capacity>
+				<offset>-0.1</offset>
+			</li>
+         </capMods>
+		</li>	 
+    </stages>
+  </HediffDef>
+  
+  <HediffDef ParentName="MutationBase">
+    <defName>MSkin</defName>
+    <label>metallic skin</label>
+    <labelNoun>a metallic skin</labelNoun>
+    <stages>
+		<li>
+		  <statOffsets>
+			<CarryingCapacity>300</CarryingCapacity>
+		    <ArmorRating_Sharp>0.7</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.4</ArmorRating_Blunt>
+          </statOffsets>
+          <capMods>
+            <li>
+               <capacity>Manipulation</capacity>
+               <offset>0.25</offset>
+            </li>
+            <li>
+               <capacity>Moving</capacity>
+               <offset>-0.3</offset>
+            </li>
+			<li>
+				<capacity>BleedRate</capacity>
+				<offset>-0.9</offset>
+			</li>
+         </capMods>
+		</li>	 
+    </stages>
+  </HediffDef>
+  
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>MArm</defName>
+    <label>strong arm</label>
+    <labelNoun>a strong arm</labelNoun>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.2</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>fist</label>
+            <capacities>
+              <li>Blunt</li>
+            </capacities>
+            <power>12</power>
+            <cooldownTime>1.8</cooldownTime>
+          </li>
+        </tools>
+      </li>
+    </comps>
+    <stages>
+		<li>
+		  <statOffsets>
+			<CarryingCapacity>40</CarryingCapacity>
+          </statOffsets>
+          <capMods>
+            <li>
+               <capacity>Manipulation</capacity>
+               <offset>0.1</offset>
+            </li>
+         </capMods>
+		</li>	 
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>MLeg</defName>
+    <label>strong leg</label>
+    <labelNoun>a strong leg</labelNoun>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.2</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+    <stages>
+		<li>
+		  <statOffsets>
+			<CarryingCapacity>160</CarryingCapacity>
+          </statOffsets>
+          <capMods>
+            <li>
+               <capacity>Moving</capacity>
+               <offset>0.5</offset>
+            </li>
+         </capMods>
+		</li>	 
+    </stages>
+  </HediffDef>
+  
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>MClaw</defName>
+    <label>claw</label>
+    <labelNoun>a claw</labelNoun>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.0</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>claw</label>
+            <capacities>
+              <li>Scratch</li>
+            </capacities>
+            <power>14</power>
+            <cooldownTime>1.45</cooldownTime>
+          </li>
+        </tools>
+      </li>
+    </comps>
+    <stages>
+		<li>
+          <capMods>
+            <li>
+               <capacity>Manipulation</capacity>
+               <offset>-0.15</offset>
+            </li>
+         </capMods>
+		</li>	 
+    </stages>
+  </HediffDef>
+  
+  <HediffDef ParentName="MutationBase">
+    <defName>MFur</defName>
+    <label>fur</label>
+    <labelNoun>a furcoat</labelNoun>
+    <stages>
+		<li>
+		  <statOffsets>
+			<ComfyTemperatureMin>-24</ComfyTemperatureMin>
+			<ComfyTemperatureMax>-8</ComfyTemperatureMax>
+          </statOffsets>
+		</li>	 
+    </stages>
+  </HediffDef>
+  
+  <HediffDef ParentName="MutationBase">
+    <defName>MSweat</defName>
+    <label>additional sweat glands</label>
+    <labelNoun>a sweat gland</labelNoun>
+    <stages>
+		<li>
+		  <statOffsets>
+			<ComfyTemperatureMax>20</ComfyTemperatureMax>
+			<SocialImpact>-0.2</SocialImpact>
+          </statOffsets>
+		</li>	 
+    </stages>
+  </HediffDef>
+  
+  <HediffDef ParentName="MutationBase">
+    <defName>MPheromones</defName>
+    <label>enhanced pheromones</label>
+    <labelNoun>a bunch of enhanced pheromones</labelNoun>
+    <stages>
+		<li>
+		  <statOffsets>
+			<SocialImpact>1.5</SocialImpact>
+          </statOffsets>
+		</li>	 
+    </stages>
+  </HediffDef>
+  
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>MIntelligence</defName>
+    <label>enlarged brain</label>
+    <labelNoun>an enlarged brain</labelNoun>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>2.0</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+    <stages>
+		<li>
+		  <statOffsets>
+			<SocialImpact>0.2</SocialImpact>
+			<PsychicSensitivity>1.2</PsychicSensitivity>
+			<MeleeDodgeChance>6</MeleeDodgeChance>
+			<MentalBreakThreshold>0.15</MentalBreakThreshold>
+			<ResearchSpeed>2.0</ResearchSpeed>
+			<GlobalLearningFactor>1.0</GlobalLearningFactor>
+          </statOffsets>
+		</li>	 
+    </stages>
+  </HediffDef>
+  
+  <HediffDef ParentName="MutationBase">
+    <defName>MNoNerves</defName>
+    <label>desensitized nerves</label>
+    <labelNoun>a desensitized nerve</labelNoun>
+    <stages>
+		<li>
+		  <statOffsets>
+			<PainShockThreshold>2.0</PainShockThreshold>
+			<MentalBreakThreshold>-0.15</MentalBreakThreshold>
+          </statOffsets>
+		</li>	 
+    </stages>
+  </HediffDef>
+  
+  <HediffDef ParentName="MutationBase">
+    <defName>MHyperNerves</defName>
+    <label>hypersensitive nerves</label>
+    <labelNoun>a hypersensitive nerve</labelNoun>
+    <stages>
+		<li>
+		  <statOffsets>
+			<PainShockThreshold>-0.8</PainShockThreshold>
+			<MentalBreakThreshold>0.15</MentalBreakThreshold>
+          </statOffsets>
+		</li>	 
+    </stages>
+  </HediffDef>
+  
+  <HediffDef ParentName="MutationBase">
+    <defName>MImmunity</defName>
+    <label>enhanced immune system</label>
+    <labelNoun>an enhanced immune system</labelNoun>
+    <stages>
+		<li>
+		  <statOffsets>
+			<ImmunityGainSpeed>2.0</ImmunityGainSpeed>
+          </statOffsets>
+		</li>	 
+    </stages>
+  </HediffDef>
+  
+  <HediffDef ParentName="MutationBase">
+    <defName>MNoImmunity</defName>
+    <label>weakened immune system</label>
+    <labelNoun>a weakened immune system</labelNoun>
+    <stages>
+		<li>
+		  <statOffsets>
+			<ImmunityGainSpeed>-0.6</ImmunityGainSpeed>
+          </statOffsets>
+		</li>	 
+    </stages>
+  </HediffDef>
+  
+  <HediffDef ParentName="MutationBase">
+    <defName>MReflexes</defName>
+    <label>enhanced reflexes</label>
+    <labelNoun>a enhanced reflex</labelNoun>
+    <stages>
+		<li>
+		  <statOffsets>
+			<MeleeHitChance>5</MeleeHitChance>
+			<MeleeDodgeChance>20</MeleeDodgeChance>
+          </statOffsets>
+		</li>	 
+    </stages>
+  </HediffDef>
+  
+  <HediffDef ParentName="MutationBase">
+    <defName>MNoReflexes</defName>
+    <label>weakened reflexes</label>
+    <labelNoun>a weakened reflex</labelNoun>
+    <stages>
+		<li>
+		  <statOffsets>
+			<MeleeHitChance>0.5</MeleeHitChance>
+			<MeleeDodgeChance>0.5</MeleeDodgeChance>
+          </statOffsets>
+		</li>	 
+    </stages>
+  </HediffDef>
+  
+</Defs>

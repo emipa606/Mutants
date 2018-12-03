@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Mutagens</name>
+  <author>Saebbi</author>
+  <targetVersion>1.0.0</targetVersion>
+  <description>
+Adds mutagens to the game. Use with caution.
+
+Uses ChJees Regeneration Assembly, Nightinggale's ModCheck and ilikegoodfoods Variable Bleed Rate Framework.
+  </description>
+</ModMetaData>
