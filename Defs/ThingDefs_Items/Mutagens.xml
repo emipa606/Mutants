@@ -115,35 +115,35 @@
 		  <hediffGivers>
             <li Class="HediffGiver_Random">
               <hediff>HealingFactor</hediff>
-              <mtbDays>9</mtbDays>
+              <mtbDays>11</mtbDays>
 			  <partsToAffect>
                 <li>Torso</li>
               </partsToAffect>
             </li>
 			<li Class="HediffGiver_Random">
               <hediff>Blindness</hediff>
-              <mtbDays>6</mtbDays>
+              <mtbDays>5</mtbDays>
 			  <partsToAffect>
                 <li>Eye</li>
               </partsToAffect>
             </li>
 			<li Class="HediffGiver_Random">
               <hediff>HearingLoss</hediff>
-              <mtbDays>6</mtbDays>
+              <mtbDays>5</mtbDays>
 			  <partsToAffect>
                 <li>Ear</li>
               </partsToAffect>
             </li>
 			<li Class="HediffGiver_Random">
               <hediff>Dementia</hediff>
-              <mtbDays>6</mtbDays>
+              <mtbDays>5</mtbDays>
 			  <partsToAffect>
                 <li>Brain</li>
               </partsToAffect>
             </li>
 			<li Class="HediffGiver_Random">
               <hediff>Carcinoma</hediff>
-              <mtbDays>3</mtbDays>
+              <mtbDays>2.5</mtbDays>
 			  <partsToAffect>
                 <li>Arm</li>
                 <li>Brain</li>
@@ -159,7 +159,7 @@
             </li>
 			<li Class="HediffGiver_Random">
               <hediff>MissingBodyPart</hediff>
-              <mtbDays>6</mtbDays>
+              <mtbDays>5</mtbDays>
 			  <partsToAffect>
                 <li>Arm</li>
                 <li>Leg</li>
@@ -170,43 +170,43 @@
             </li>
 			<li Class="HediffGiver_Random">
               <hediff>MFangs</hediff>
-              <mtbDays>7</mtbDays>
+              <mtbDays>8</mtbDays>
 			  <partsToAffect>
                 <li>Jaw</li>
               </partsToAffect>
             </li>
 			<li Class="HediffGiver_Random">
               <hediff>MHearing</hediff>
-              <mtbDays>7</mtbDays>
+              <mtbDays>8</mtbDays>
 			  <partsToAffect>
                 <li>Ear</li>
               </partsToAffect>
             </li>
 			<li Class="HediffGiver_Random">
               <hediff>MEye</hediff>
-              <mtbDays>7</mtbDays>
+              <mtbDays>8</mtbDays>
 			  <partsToAffect>
                 <li>Eye</li>
               </partsToAffect>
             </li>
 			<li Class="HediffGiver_Random">
               <hediff>MScales</hediff>
-              <mtbDays>7</mtbDays>
+              <mtbDays>8</mtbDays>
             </li>
 			<li Class="HediffGiver_Random">
               <hediff>MSkin</hediff>
-              <mtbDays>9</mtbDays>
+              <mtbDays>10</mtbDays>
             </li>
 			<li Class="HediffGiver_Random">
               <hediff>MArm</hediff>
-              <mtbDays>7</mtbDays>
+              <mtbDays>8</mtbDays>
 			  <partsToAffect>
                 <li>Arm</li>
               </partsToAffect>
             </li>
 			<li Class="HediffGiver_Random">
               <hediff>MLeg</hediff>
-              <mtbDays>7</mtbDays>
+              <mtbDays>8</mtbDays>
 			  <partsToAffect>
                 <li>Leg</li>
               </partsToAffect>
@@ -220,26 +220,26 @@
             </li>
 			<li Class="HediffGiver_Random">
               <hediff>MFur</hediff>
-              <mtbDays>7</mtbDays>
+              <mtbDays>7.5</mtbDays>
             </li>
 			<li Class="HediffGiver_Random">
               <hediff>MSweat</hediff>
-              <mtbDays>7</mtbDays>
+              <mtbDays>7.5</mtbDays>
             </li>
 			<li Class="HediffGiver_Random">
               <hediff>MPheromones</hediff>
-              <mtbDays>8</mtbDays>
+              <mtbDays>9</mtbDays>
             </li>
 			<li Class="HediffGiver_Random">
               <hediff>MIntelligence</hediff>
-              <mtbDays>9</mtbDays>
+              <mtbDays>11</mtbDays>
 			  <partsToAffect>
                 <li>Brain</li>
               </partsToAffect>
             </li>
 			<li Class="HediffGiver_Random">
               <hediff>MNoNerves</hediff>
-              <mtbDays>7</mtbDays>
+              <mtbDays>8.5</mtbDays>
             </li>
 			<li Class="HediffGiver_Random">
               <hediff>MHyperNerves</hediff>
@@ -247,7 +247,7 @@
             </li>
 			<li Class="HediffGiver_Random">
               <hediff>MImmunity</hediff>
-              <mtbDays>7</mtbDays>
+              <mtbDays>8.5</mtbDays>
             </li>
 			<li Class="HediffGiver_Random">
               <hediff>MNoImmunity</hediff>
@@ -255,7 +255,7 @@
             </li>
 			<li Class="HediffGiver_Random">
               <hediff>MReflexes</hediff>
-              <mtbDays>7</mtbDays>
+              <mtbDays>8.5</mtbDays>
             </li>
 			<li Class="HediffGiver_Random">
               <hediff>MNoReflexes</hediff>
