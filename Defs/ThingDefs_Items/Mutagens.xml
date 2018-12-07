@@ -261,6 +261,10 @@
               <hediff>MNoReflexes</hediff>
               <mtbDays>7</mtbDays>
             </li>
+			<li Class="HediffGiver_Random">
+              <hediff>MSaitama</hediff>
+              <mtbDays>14</mtbDays>
+            </li>
           </hediffGivers>
         </li>
 		<li>

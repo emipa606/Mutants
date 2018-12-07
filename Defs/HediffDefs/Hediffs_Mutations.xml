@@ -360,4 +360,44 @@
     </stages>
   </HediffDef>
   
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>MSaitama</defName>
+    <label>one punch arm</label>
+    <labelNoun>an arm</labelNoun>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.2</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>fist</label>
+            <capacities>
+              <li>Blunt</li>
+            </capacities>
+            <power>45</power>
+            <cooldownTime>1.8</cooldownTime>
+          </li>
+        </tools>
+      </li>
+    </comps>
+    <stages>
+		<li>
+		  <statOffsets>
+			<MeleeHitChance>10</MeleeHitChance>
+			<MeleeDodgeChance>16</MeleeDodgeChance>
+			<CarryingCapacity>200</CarryingCapacity>
+          </statOffsets>
+          <capMods>
+            <li>
+               <capacity>Manipulation</capacity>
+               <offset>0.1</offset>
+            </li>
+         </capMods>
+		</li>	 
+    </stages>
+  </HediffDef>
+  
 </Defs>
