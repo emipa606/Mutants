@@ -194,7 +194,11 @@
               <mtbDays>8</mtbDays>
             </li>
 			<li Class="HediffGiver_Random">
-              <hediff>MSkin</hediff>
+              <hediff>MSSkin</hediff>
+              <mtbDays>9</mtbDays>
+            </li>
+			<li Class="HediffGiver_Random">
+              <hediff>MMSkin</hediff>
               <mtbDays>10</mtbDays>
             </li>
 			<li Class="HediffGiver_Random">
