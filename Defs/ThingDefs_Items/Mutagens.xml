@@ -269,6 +269,13 @@
               <hediff>MSaitama</hediff>
               <mtbDays>14</mtbDays>
             </li>
+			<li Class="HediffGiver_Random">
+              <hediff>MAwareness</hediff>
+              <mtbDays>10</mtbDays>
+			  <partsToAffect>
+                <li>Brain</li>
+              </partsToAffect>
+            </li>
           </hediffGivers>
         </li>
 		<li>

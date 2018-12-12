@@ -57,6 +57,14 @@
       <partEfficiency>1.4</partEfficiency>
       <betterThanNatural>true</betterThanNatural>
     </addedPartProps>
+    <stages>
+		<li>
+		  <statOffsets>
+			<AimingDelayFactor>-0.10</AimingDelayFactor>
+			<ShootingAccuracyPawn>2</ShootingAccuracyPawn>
+          </statOffsets>
+		</li>	 
+    </stages>
   </HediffDef>
 
   <HediffDef ParentName="MutationBase">
@@ -424,6 +432,39 @@
             <li>
                <capacity>Manipulation</capacity>
                <offset>0.1</offset>
+            </li>
+            <li>
+               <capacity>Moving</capacity>
+               <offset>2.0</offset>
+            </li>
+         </capMods>
+		</li>	 
+    </stages>
+  </HediffDef>
+  
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>MAwareness</defName>
+    <label>expanded awareness</label>
+    <labelNoun>a brain with expanded awareness</labelNoun>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.2</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+    <stages>
+		<li>
+		  <statOffsets>
+			<PsychicSensitivity>2.0</PsychicSensitivity>
+			<PainShockThreshold>-0.2</PainShockThreshold>
+          </statOffsets>
+          <capMods>
+            <li>
+               <capacity>Hearing</capacity>
+               <offset>0.2</offset>
+            </li>
+            <li>
+               <capacity>Sight</capacity>
+               <offset>0.2</offset>
             </li>
          </capMods>
 		</li>	 
