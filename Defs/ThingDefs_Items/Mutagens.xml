@@ -276,6 +276,10 @@
                 <li>Brain</li>
               </partsToAffect>
             </li>
+			<li Class="HediffGiver_Random">
+              <hediff>MBleed</hediff>
+              <mtbDays>7</mtbDays>
+            </li>
           </hediffGivers>
         </li>
 		<li>

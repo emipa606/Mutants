@@ -471,4 +471,27 @@
     </stages>
   </HediffDef>
   
+  <HediffDef ParentName="MutationBase">
+    <defName>MBleed</defName>
+    <label>thin blood</label>
+    <labelNoun>thin blood</labelNoun>
+    <stages>
+		<li>
+		  <statOffsets>
+			<ComfyTemperatureMin>-16</ComfyTemperatureMin>
+          </statOffsets>
+          <capMods>
+            <li>
+               <capacity>Metabolism</capacity>
+               <offset>0.2</offset>
+            </li>
+			<li>
+				<capacity>BleedRate</capacity>
+				<offset>1.5</offset>
+			</li>
+         </capMods>
+		</li>	 
+    </stages>
+  </HediffDef>
+  
 </Defs>
