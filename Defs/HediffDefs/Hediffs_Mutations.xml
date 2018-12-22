@@ -494,4 +494,30 @@
     </stages>
   </HediffDef>
   
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>MPhotosynthesis</defName>
+    <label>photosynthesis</label>
+    <labelNoun>a photosynthetic node</labelNoun>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.0</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+    <comps>
+		<li Class="AlphaBehavioursAndEvents.CompProperties_LightSustenance">
+			
+        </li>
+    </comps>
+    <stages>
+		<li>
+          <capMods>
+            <li>
+               <capacity>Metabolism</capacity>
+               <offset>-0.15</offset>
+            </li>
+         </capMods>
+		</li>	 
+    </stages>
+  </HediffDef>
+  
 </Defs>

@@ -1,7 +1,5 @@
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Mutants\Sources\Mitosis\obj\Debug\Mitosis.csprojAssemblyReference.cache
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Mutants\Sources\Mitosis\obj\Debug\Mitosis.csproj.CoreCompileInputs.cache
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Mutants\Sources\Mitosis\bin\Debug\Mitosis.dll
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Mutants\Sources\Mitosis\bin\Debug\Mitosis.pdb
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Mutants\Sources\Mitosis\bin\Debug\Assembly-CSharp.dll
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Mutants\Sources\Mitosis\bin\Debug\UnityEngine.dll
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Mutants\Sources\Mitosis\bin\Debug\TextMeshPro-1.0.55.56.0b11.dll
@@ -10,5 +8,7 @@ C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Mutants\Sources\Mito
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Mutants\Sources\Mitosis\bin\Debug\NVorbis.dll
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Mutants\Sources\Mitosis\bin\Debug\UnityEngine.UI.dll
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Mutants\Sources\Mitosis\obj\Debug\Mitosis.csproj.CopyComplete
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Mutants\Sources\Mitosis\obj\Debug\Mitosis.dll
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Mutants\Sources\Mitosis\obj\Debug\Mitosis.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Mutants\Sources\Mitosis\bin\Debug\Mutants.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Mutants\Sources\Mitosis\bin\Debug\Mutants.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Mutants\Sources\Mitosis\obj\Debug\Mutants.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Mutants\Sources\Mitosis\obj\Debug\Mutants.pdb
