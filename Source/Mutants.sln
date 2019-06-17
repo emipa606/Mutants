@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mitosis", "Mitosis\Mitosis.csproj", "{F9AE87C8-3232-42A9-9BDD-1D9B6BEA362D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mutations", "ClassLibrary1\Mutations.csproj", "{4B955586-9FE4-4000-818D-CA0164EFC3DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F9AE87C8-3232-42A9-9BDD-1D9B6BEA362D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9AE87C8-3232-42A9-9BDD-1D9B6BEA362D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9AE87C8-3232-42A9-9BDD-1D9B6BEA362D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9AE87C8-3232-42A9-9BDD-1D9B6BEA362D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B955586-9FE4-4000-818D-CA0164EFC3DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B955586-9FE4-4000-818D-CA0164EFC3DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B955586-9FE4-4000-818D-CA0164EFC3DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B955586-9FE4-4000-818D-CA0164EFC3DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5427B652-1499-4A14-BA2A-4E914B7FB1DE}
+	EndGlobalSection
+EndGlobal

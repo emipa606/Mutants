@@ -503,11 +503,6 @@
       <partEfficiency>1.0</partEfficiency>
       <betterThanNatural>true</betterThanNatural>
     </addedPartProps>
-    <comps>
-		<li Class="AlphaBehavioursAndEvents.CompProperties_LightSustenance">
-			
-        </li>
-    </comps>
     <stages>
 		<li>
           <capMods>
@@ -516,6 +511,21 @@
                <offset>-0.15</offset>
             </li>
          </capMods>
+		</li>	 
+    </stages>
+  </HediffDef>
+  
+  <HediffDef ParentName="MutationBase">
+    <defName>MAwake</defName>
+    <label>insomniac</label>
+    <labelNoun>a insomniac</labelNoun>
+    <stages>
+		<li>
+		  <statOffsets>
+			<PainShockThreshold>-0.2</PainShockThreshold>
+			<MentalBreakThreshold>0.8</MentalBreakThreshold>
+			<RestRateMultiplier>100.0</RestRateMultiplier>
+          </statOffsets>
 		</li>	 
     </stages>
   </HediffDef>

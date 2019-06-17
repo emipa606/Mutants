@@ -2,7 +2,9 @@
 <ModMetaData>
   <name>Mutants</name>
   <author>Saebbi</author>
-  <targetVersion>1.0.0</targetVersion>
+  <supportedVersions>
+	<li>1.0</li>
+  </supportedVersions>
   <description>
 Adds mutagens to the game. Use with caution.
 
