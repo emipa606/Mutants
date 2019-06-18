@@ -40,7 +40,7 @@
 
   <HediffDef ParentName="AddedBodyPartBase">
     <defName>MHearing</defName>
-    <label>cat-like ears</label>
+    <label>cat-like ear</label>
     <labelNoun>a cat-like ear</labelNoun>
     <addedPartProps>
       <solid>true</solid>
