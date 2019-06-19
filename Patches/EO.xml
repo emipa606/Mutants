@@ -284,11 +284,8 @@
 							  </partsToAffect>
 							</li>
 							<li Class="HediffGiver_Random">
-							  <hediff>EvolvedPelt</hediff>
+							  <hediff>MFur</hediff>
 							  <mtbDays>8</mtbDays>
-							  <partsToAffect>
-								<li>Torso</li>
-							  </partsToAffect>
 							</li>
 							<li Class="HediffGiver_Random">
 							  <hediff>MSweat</hediff>
