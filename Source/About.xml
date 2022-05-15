@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Mutants</name>
+  <author>Saebbi</author>
+  <supportedVersions>
+    <li>1.0</li>
+    <li>1.1</li>
+  </supportedVersions>
+  <packageId>Saebbi.Mutants</packageId>
+  <description>
+Adds mutagens to the game. Use with caution.
+
+Uses ChJees Regeneration Assembly, Nightinggale's ModCheck and ilikegoodfoods Variable Bleed Rate Framework.
+  </description>
+</ModMetaData>

@@ -1,0 +1,385 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Evolved Organs</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationReplace">
+          <xpath>*/HediffDef[defName="MutagenicHigh"]/stages/li[hediffGivers]</xpath>
+          <value>
+            <li>
+              <label>active</label>
+              <minSeverity>0.35</minSeverity>
+              <painFactor>2</painFactor>
+              <hungerRateFactor>2</hungerRateFactor>
+              <vomitMtbDays>0.15</vomitMtbDays>
+              <capMods>
+                <li>
+                  <capacity>Consciousness</capacity>
+                  <offset>-0.45</offset>
+                </li>
+                <li>
+                  <capacity>Moving</capacity>
+                  <offset>-0.80</offset>
+                </li>
+                <li>
+                  <capacity>Sight</capacity>
+                  <offset>-0.40</offset>
+                </li>
+                <li>
+                  <capacity>Manipulation</capacity>
+                  <offset>-0.65</offset>
+                </li>
+              </capMods>
+              <hediffGivers>
+                <li Class="HediffGiver_Random">
+                  <hediff>EvolvedPrimaryHeart</hediff>
+                  <mtbDays>9</mtbDays>
+                  <partsToAffect>
+                    <li>Heart</li>
+                  </partsToAffect>
+                </li>
+                <li Class="HediffGiver_Random">
+                  <hediff>EvolvedSecondHeart</hediff>
+                  <mtbDays>10</mtbDays>
+                  <partsToAffect>
+                    <li>RightChestCavity</li>
+                  </partsToAffect>
+                </li>
+                <li Class="HediffGiver_Random">
+                  <hediff>EvolvedKidney</hediff>
+                  <mtbDays>9</mtbDays>
+                  <partsToAffect>
+                    <li>Kidney</li>
+                  </partsToAffect>
+                </li>
+                <li Class="HediffGiver_Random">
+                  <hediff>EvolvedLung</hediff>
+                  <mtbDays>9</mtbDays>
+                  <partsToAffect>
+                    <li>Lung</li>
+                  </partsToAffect>
+                </li>
+                <li Class="HediffGiver_Random">
+                  <hediff>EvolvedThirdLung</hediff>
+                  <mtbDays>10</mtbDays>
+                  <partsToAffect>
+                    <li>LeftChestCavity</li>
+                  </partsToAffect>
+                </li>
+                <li Class="HediffGiver_Random">
+                  <hediff>EvolvedStomach</hediff>
+                  <mtbDays>9</mtbDays>
+                  <partsToAffect>
+                    <li>Stomach</li>
+                  </partsToAffect>
+                </li>
+                <li Class="HediffGiver_Random">
+                  <hediff>EvolvedLiver</hediff>
+                  <mtbDays>9</mtbDays>
+                  <partsToAffect>
+                    <li>Liver</li>
+                  </partsToAffect>
+                </li>
+                <li Class="HediffGiver_Random">
+                  <hediff>EvolvedCombatGlands</hediff>
+                  <mtbDays>9</mtbDays>
+                  <partsToAffect>
+                    <li>RightAbdomenCavity</li>
+                  </partsToAffect>
+                </li>
+                <li Class="HediffGiver_Random">
+                  <hediff>EvolvedNose</hediff>
+                  <mtbDays>9</mtbDays>
+                  <partsToAffect>
+                    <li>Nose</li>
+                  </partsToAffect>
+                </li>
+                <li Class="HediffGiver_Random">
+                  <hediff>EvolvedLarnyx</hediff>
+                  <mtbDays>9</mtbDays>
+                  <partsToAffect>
+                    <li>Neck</li>
+                  </partsToAffect>
+                </li>
+                <li Class="HediffGiver_Random">
+                  <hediff>EvolvedRibcage</hediff>
+                  <mtbDays>11</mtbDays>
+                  <partsToAffect>
+                    <li>Ribcage</li>
+                  </partsToAffect>
+                </li>
+                <li Class="HediffGiver_Random">
+                  <hediff>EvolvedCarapace</hediff>
+                  <mtbDays>10</mtbDays>
+                  <partsToAffect>
+                    <li>Torso</li>
+                  </partsToAffect>
+                </li>
+                <li Class="HediffGiver_Random">
+                  <hediff>EvolvedSpine</hediff>
+                  <mtbDays>9</mtbDays>
+                  <partsToAffect>
+                    <li>Spine</li>
+                  </partsToAffect>
+                </li>
+                <li Class="HediffGiver_Random">
+                  <hediff>EvolvedTail</hediff>
+                  <mtbDays>9</mtbDays>
+                  <partsToAffect>
+                    <li>Tail</li>
+                  </partsToAffect>
+                </li>
+                <li Class="HediffGiver_Random">
+                  <hediff>EvolvedSpider</hediff>
+                  <mtbDays>9.5</mtbDays>
+                  <partsToAffect>
+                    <li>Waist</li>
+                  </partsToAffect>
+                </li>
+                <li Class="HediffGiver_Random">
+                  <hediff>EvolvedArmSabre</hediff>
+                  <mtbDays>9.5</mtbDays>
+                  <partsToAffect>
+                    <li>Arm</li>
+                  </partsToAffect>
+                </li>
+                <li Class="HediffGiver_Random">
+                  <hediff>EvolvedArmMace</hediff>
+                  <mtbDays>9.5</mtbDays>
+                  <partsToAffect>
+                    <li>Arm</li>
+                  </partsToAffect>
+                </li>
+                <li Class="HediffGiver_Random">
+                  <hediff>EvolvedArmClaw</hediff>
+                  <mtbDays>9.5</mtbDays>
+                  <partsToAffect>
+                    <li>Arm</li>
+                  </partsToAffect>
+                </li>
+                <li Class="HediffGiver_Random">
+                  <hediff>EvolvedArmTentacle</hediff>
+                  <mtbDays>9.5</mtbDays>
+                  <partsToAffect>
+                    <li>Arm</li>
+                  </partsToAffect>
+                </li>
+                <li Class="HediffGiver_Random">
+                  <hediff>EvolvedArmShield</hediff>
+                  <mtbDays>9.5</mtbDays>
+                  <partsToAffect>
+                    <li>Arm</li>
+                  </partsToAffect>
+                </li>
+                <!--Jetharius Added-->
+                <li Class="HediffGiver_Random">
+                  <hediff>EvolvedFilter</hediff>
+                  <mtbDays>9.5</mtbDays>
+                  <partsToAffect>
+                    <li>Skull</li>
+                  </partsToAffect>
+                </li>
+                <li Class="HediffGiver_Random">
+                  <hediff>EmpathicResonator</hediff>
+                  <mtbDays>9.5</mtbDays>
+                  <partsToAffect>
+                    <li>Skull</li>
+                  </partsToAffect>
+                </li>
+                <li Class="HediffGiver_Random">
+                  <hediff>ImmortalOrgan</hediff>
+                  <mtbDays>9.5</mtbDays>
+                  <partsToAffect>
+                    <li>RightAbdominalCavity</li>
+                  </partsToAffect>
+                </li>
+                <li Class="HediffGiver_Random">
+                  <hediff>LymphaticProliferator</hediff>
+                  <mtbDays>9.5</mtbDays>
+                  <partsToAffect>
+                    <li>LeftAbdominalCavity</li>
+                  </partsToAffect>
+                </li>
+                <!--/Jetharius Added-->
+                <li Class="HediffGiver_Random">
+                  <hediff>HealingFactor</hediff>
+                  <mtbDays>11</mtbDays>
+                  <partsToAffect>
+                    <li>Torso</li>
+                  </partsToAffect>
+                </li>
+                <li Class="HediffGiver_Random">
+                  <hediff>Blindness</hediff>
+                  <mtbDays>8</mtbDays>
+                  <partsToAffect>
+                    <li>Eye</li>
+                  </partsToAffect>
+                </li>
+                <li Class="HediffGiver_Random">
+                  <hediff>HearingLoss</hediff>
+                  <mtbDays>8</mtbDays>
+                  <partsToAffect>
+                    <li>Ear</li>
+                  </partsToAffect>
+                </li>
+                <li Class="HediffGiver_Random">
+                  <hediff>Dementia</hediff>
+                  <mtbDays>12</mtbDays>
+                  <partsToAffect>
+                    <li>Brain</li>
+                  </partsToAffect>
+                </li>
+                <li Class="HediffGiver_Random">
+                  <hediff>Carcinoma</hediff>
+                  <mtbDays>3.5</mtbDays>
+                  <partsToAffect>
+                    <li>Arm</li>
+                    <li>Brain</li>
+                    <li>Leg</li>
+                    <li>Ear</li>
+                    <li>Eye</li>
+                    <li>Stomach</li>
+                    <li>Liver</li>
+                    <li>Heart</li>
+                    <li>Kidney</li>
+                    <li>Torso</li>
+                  </partsToAffect>
+                </li>
+                <li Class="HediffGiver_Random">
+                  <hediff>MissingBodyPart</hediff>
+                  <mtbDays>8</mtbDays>
+                  <partsToAffect>
+                    <li>Arm</li>
+                    <li>Leg</li>
+                    <li>Jaw</li>
+                    <li>Ear</li>
+                    <li>Eye</li>
+                  </partsToAffect>
+                </li>
+                <li Class="HediffGiver_Random">
+                  <hediff>MFangs</hediff>
+                  <mtbDays>8</mtbDays>
+                  <partsToAffect>
+                    <li>Jaw</li>
+                  </partsToAffect>
+                </li>
+                <li Class="HediffGiver_Random">
+                  <hediff>MHearing</hediff>
+                  <mtbDays>8</mtbDays>
+                  <partsToAffect>
+                    <li>Ear</li>
+                  </partsToAffect>
+                </li>
+                <li Class="HediffGiver_Random">
+                  <hediff>MEye</hediff>
+                  <mtbDays>8</mtbDays>
+                  <partsToAffect>
+                    <li>Eye</li>
+                  </partsToAffect>
+                </li>
+                <li Class="HediffGiver_Random">
+                  <hediff>MScales</hediff>
+                  <mtbDays>8</mtbDays>
+                </li>
+                <li Class="HediffGiver_Random">
+                  <hediff>MSSkin</hediff>
+                  <mtbDays>8</mtbDays>
+                </li>
+                <li Class="HediffGiver_Random">
+                  <hediff>MMSkin</hediff>
+                  <mtbDays>8</mtbDays>
+                </li>
+                <li Class="HediffGiver_Random">
+                  <hediff>MArm</hediff>
+                  <mtbDays>8</mtbDays>
+                  <partsToAffect>
+                    <li>Arm</li>
+                  </partsToAffect>
+                </li>
+                <li Class="HediffGiver_Random">
+                  <hediff>MLeg</hediff>
+                  <mtbDays>8</mtbDays>
+                  <partsToAffect>
+                    <li>Leg</li>
+                  </partsToAffect>
+                </li>
+                <li Class="HediffGiver_Random">
+                  <hediff>MClaw</hediff>
+                  <mtbDays>8</mtbDays>
+                  <partsToAffect>
+                    <li>Hand</li>
+                  </partsToAffect>
+                </li>
+                <li Class="HediffGiver_Random">
+                  <hediff>MFur</hediff>
+                  <mtbDays>8</mtbDays>
+                </li>
+                <li Class="HediffGiver_Random">
+                  <hediff>MSweat</hediff>
+                  <mtbDays>8</mtbDays>
+                </li>
+                <li Class="HediffGiver_Random">
+                  <hediff>MPheromones</hediff>
+                  <mtbDays>10</mtbDays>
+                </li>
+                <li Class="HediffGiver_Random">
+                  <hediff>MIntelligence</hediff>
+                  <mtbDays>11</mtbDays>
+                  <partsToAffect>
+                    <li>Brain</li>
+                  </partsToAffect>
+                </li>
+                <li Class="HediffGiver_Random">
+                  <hediff>MNoNerves</hediff>
+                  <mtbDays>9</mtbDays>
+                </li>
+                <li Class="HediffGiver_Random">
+                  <hediff>MHyperNerves</hediff>
+                  <mtbDays>8</mtbDays>
+                </li>
+                <li Class="HediffGiver_Random">
+                  <hediff>MImmunity</hediff>
+                  <mtbDays>9</mtbDays>
+                </li>
+                <li Class="HediffGiver_Random">
+                  <hediff>MNoImmunity</hediff>
+                  <mtbDays>8</mtbDays>
+                </li>
+                <li Class="HediffGiver_Random">
+                  <hediff>MReflexes</hediff>
+                  <mtbDays>9</mtbDays>
+                </li>
+                <li Class="HediffGiver_Random">
+                  <hediff>MNoReflexes</hediff>
+                  <mtbDays>8</mtbDays>
+                </li>
+                <li Class="HediffGiver_Random">
+                  <hediff>MSaitama</hediff>
+                  <mtbDays>14</mtbDays>
+                </li>
+                <li Class="HediffGiver_Random">
+                  <hediff>MAwareness</hediff>
+                  <mtbDays>10</mtbDays>
+                  <partsToAffect>
+                    <li>Brain</li>
+                  </partsToAffect>
+                </li>
+                <li Class="HediffGiver_Random">
+                  <hediff>MBleed</hediff>
+                  <mtbDays>8.5</mtbDays>
+                </li>
+                <li Class="HediffGiver_Random">
+                  <hediff>MAwake</hediff>
+                  <mtbDays>9</mtbDays>
+                </li>
+              </hediffGivers>
+            </li>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
